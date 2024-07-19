@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: goldenrod;
+}
+
+body {
+  color: goldenrod;
+  background-color: black;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#scoreBoard {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 10px solid green;
+  background-color: black;
+  max-width: 100%; /* Ensure canvas doesn't exceed viewport width */
+}
