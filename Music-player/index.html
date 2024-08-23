@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2616bc9d69.js" crossorigin="anonymous"></script>
+        <title>Music player</title>
+</head>
+<body>
+<section id="container">
+    <h1>Music player</h1>
+    <img class="logo" src="data:image/png;base64,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" alt="">
+    <ul id="song-list">
+       
+        
+    </ul>
+
+    <div id="play-section">
+        <input class="drager" type="range" id="progress">
+        
+
+        
+        <div class="jk">
+            <button id = "prev-btn"> <i class="fa-solid fa-backward"></i></button>
+            <button id="play-btn"> <i class="fa-solid fa-play"></i></button>
+            <button id="next-btn"> <i class="fa-solid fa-forward"></i></button>
+        </div>
+
+
+
+    </div>
+
+</section>
+
+    <script src="app.js"></script>
+</body>
+</html>
